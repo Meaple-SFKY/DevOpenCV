@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
     image = imread(argv[1]);
     namedWindow("Image", WINDOW_AUTOSIZE);
     imshow("Image", image);
-    cout << "完成了!"<< endl;;
+    cout << "finished"<< endl;;
     waitKey(0);
     return 0;
 }
